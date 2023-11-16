@@ -1,0 +1,78 @@
+body{
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);	
+	background-repeat: no-repeat;	
+}
+.container{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+	width: 1000px;
+}
+header{
+	width: 95%;
+	height: 70px;
+	margin-bottom:20px;
+	text-align: center;
+}
+nav{
+	margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    width: 80%;
+    margin-top: 30px;
+	text-decoration: none;
+	color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+article{
+	width: 100%;
+    margin: 0 auto;
+    height: 250px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+	text-align: center;
+}
+.img{
+    width: 43%;
+    float: left;
+}
+.text_table1{
+    width: 55%;
+    float: right;
+
+}
+.link{
+	text-decoration: none;
+     color: black;
+}
+.img_table{
+    width: 190px;
+	margin-left: -40px;
+}
+.text_table1{
+    width: 55%;
+    float: left;
+	font-size: 16px;
+}
+.img_table2{
+	width: 400px;
+    float: left;
+}
+.text_table2{
+	width: 55%;
+    float: right;
+	font-size: 16px;
+}
+footer{
+	width: 95%;
+	height: 70px;
+	margin-bottom:20px;
+	text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
